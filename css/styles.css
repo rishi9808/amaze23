@@ -99,10 +99,10 @@
 
   /* theme color variations
      */
-  --color-1-lighter: rgb(49, 235, 95);
-  --color-1-light: rgb(42, 202, 82);
-  --color-1-dark: rgb(23, 112, 46);
-  --color-1-darker: rgb(15, 68, 28);
+  --color-1-lighter: rgb(36, 168, 69);
+  --color-1-light: rgb(36, 168, 69);
+  --color-1-dark: rgb(36, 168, 69);
+  --color-1-darker: rgb(36, 168, 69);
   --color-2-lighter: hsla(48, 67%, 99%, 1);
   --color-2-light: hsla(48, 67%, 89%, 1);
   --color-2-dark: hsla(48, 67%, 69%, 1);
@@ -2956,12 +2956,12 @@ img.u-pull-left {
   margin-right: 0;
 }
 
-.s-header__social svg {
+svg {
   height: 2.4rem;
   width: 2.4rem;
 }
 
-.s-header__social svg path {
+svg path {
   fill: white;
 }
 
@@ -4121,7 +4121,7 @@ img.u-pull-left {
 }
 
 .s-footer__block img {
-  height: 32px;
+  height: 24px;
   display: block;
   margin: 0;
   margin-bottom: 2rem;
@@ -4138,6 +4138,7 @@ img.u-pull-left {
 .contact-list {
   list-style: none;
   margin-left: 0;
+  font-size: 2rem;
 }
 
 .contact-list a {
